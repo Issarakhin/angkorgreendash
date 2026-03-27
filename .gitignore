@@ -1,0 +1,13 @@
+.env.local
+.env*.local
+node_modules/
+.next/
+out/
+build/
+.DS_Store
+*.log
+.vercel
+serviceAccount.json
+*.pem
+.idea/
+.vscode/
