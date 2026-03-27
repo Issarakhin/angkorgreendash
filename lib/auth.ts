@@ -17,7 +17,7 @@ export const authOptions: NextAuthOptions = {
           return {
             id: "1",
             name: "Admin",
-            email: credentials.email,
+            email: credentials.email ?? "",
           };
         }
         return null;
